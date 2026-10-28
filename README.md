@@ -1,1 +1,2 @@
 # Logic-system-Algorithm-Project
+This repository contains two C++ implementations of Boolean function minimization from my Logic System Algorithms course. The K-map Solver handles 2 to 4 variables: it enumerates all valid rectangles on a Gray-code-ordered map, filters out prime implicants, identifies essential ones, and completes the cover greedily. The Quine-McCluskey Solver scales to more variables: it merges implicants column by column, builds a prime implicant chart, and applies Petrick’s method to return every exact minimum SOP solution.
